@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>お申し込みありがとうございます | Loohcs志塾</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      border-style: solid;
+      border-width: 0;
+      min-width: 0;
+      margin: 0;
+      padding: 0;
+    }
+    ul, ol { list-style: none; }
+    h1 { font-size: inherit; font-weight: inherit; }
+    html { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      font-family: "Zen Old Mincho", serif;
+      color: #222222;
+      background-color: #eef3f6;
+      min-height: 100vh;
+    }
+
+    /* 背景グラデーション */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 10% 10%, rgba(0,158,170,0.07) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 90% 90%, rgba(27,69,95,0.07) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 48px 20px 64px;
+    }
+
+    /* カード */
+    .card {
+      max-width: 480px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 32px rgba(27,69,95,.10), 0 1px 4px rgba(0,0,0,.04);
+      padding: 48px 40px 44px;
+      text-align: center;
+      animation: fadeUp .65s cubic-bezier(.22,1,.36,1) both;
+    }
+
+    /* アイコン */
+    .icon-wrap {
+      width: 72px;
+      height: 72px;
+      background-color: #1b455f;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+      box-shadow: none;
+      animation: popIn .55s .3s cubic-bezier(.34,1.56,.64,1) both;
+    }
+    .icon-wrap svg { width: 36px; height: 36px; }
+
+    /* ラベル */
+    .label {
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: #009eaa;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      animation: fadeUp .5s .4s both;
+    }
+
+    /* タイトル */
+    .title {
+      font-family: "Zen Old Mincho", serif;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.6;
+      letter-spacing: 0.06em;
+      color: #ffffff;
+      margin-bottom: 16px;
+      animation: fadeUp .5s .45s both;
+    }
+    .title span { color: #009eaa; }
+
+    /* 本文 */
+    .body-text {
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 14px;
+      line-height: 1.95;
+      letter-spacing: 0.05em;
+      color: #555555;
+      margin-bottom: 32px;
+      animation: fadeUp .5s .5s both;
+    }
+
+    /* 区切り線 */
+    .divider {
+      width: 40px;
+      height: 2px;
+      background: #009eaa;
+      margin: 0 auto 32px;
+      border-radius: 2px;
+      animation: fadeUp .5s .5s both;
+    }
+
+    /* 流れボックス */
+    .flow-box {
+      background-color: rgba(0,158,170,0.06);
+      border-radius: 7px;
+      border-left-width: 3px;
+      border-left-color: #009eaa;
+      padding: 18px 20px;
+      text-align: left;
+      margin-bottom: 20px;
+      animation: fadeUp .5s .55s both;
+    }
+    .flow-box__title {
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      color: #009eaa;
+      margin-bottom: 12px;
+    }
+    .flow-box__list {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .flow-box__list li {
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 13px;
+      line-height: 1.75;
+      letter-spacing: 0.04em;
+      color: #222222;
+      padding-left: 18px;
+      position: relative;
+    }
+    .flow-box__list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #009eaa;
+      font-weight: 700;
+    }
+
+    /* 注記 */
+    .note {
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 11px;
+      color: #888888;
+      line-height: 1.9;
+      letter-spacing: 0.04em;
+      background: #f5f5f5;
+      border-radius: 7px;
+      padding: 10px 14px;
+      text-align: left;
+      margin-bottom: 32px;
+      animation: fadeUp .5s .6s both;
+    }
+
+    /* ボタン */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1b455f;
+      color: #fff;
+      text-decoration: none;
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 15px 40px;
+      border-radius: 999px;
+      transition: background-color .2s, transform .15s, box-shadow .2s;
+      box-shadow: 0 4px 20px rgba(27,69,95,.30);
+      animation: fadeUp .5s .65s both;
+    }
+    .btn:hover {
+      background-color: #32576f;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(27,69,95,.35);
+    }
+    .btn:active { transform: translateY(0); }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes popIn {
+      from { opacity: 0; transform: scale(.5); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    @media screen and (max-width: 767px) {
+      .card { padding: 36px 24px 36px; }
+      .title { font-size: 22px; }
+      .body-text { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+
+      <div class="icon-wrap">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 19L15 26L28 11" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <p class="label">Thank you</p>
+      <h1 class="title">お申し込みが<br><span>完了しました</span></h1>
+      <p class="body-text">
+        無料体験授業・相談会へのお申し込み<br>ありがとうございます。<br>
+        担当者より、メールにて<br class="sp-only">日程調整のご連絡をいたします。
+      </p>
+
+      <div class="divider"></div>
+
+      <div class="flow-box">
+        <p class="flow-box__title">今後の流れ</p>
+        <ul class="flow-box__list">
+          <li>1〜2営業日以内にメールでご連絡いたします</li>
+          <li>日程を調整後、校舎またはオンラインにてご参加ください</li>
+          <li>当日は手ぶらでOK。入塾の強制は一切ありません</li>
+        </ul>
+      </div>
+
+      <p class="note">
+        📧 メールが届かない場合は、迷惑メールフォルダや<br>
+        Gmailの「プロモーション」タブもご確認ください。
+      </p>
+
+      <a class="btn" href="https://loohcs-shijuku.com/">
+        トップページへ戻る
+      </a>
+
+    </div>
+  </div>
+</body>
+</html>
