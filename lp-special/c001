@@ -17,7 +17,7 @@ x.onerror=e;ne.insertBefore(x,z);setTimeout(function(){t.contains(ti+i)&&e()},m)
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PNW23ZTC');</script>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>総合型選抜 Loohcs志塾（ルークス志塾）</title>
     <meta
       name="description"
@@ -137,6 +137,7 @@ x.onerror=e;ne.insertBefore(x,z);setTimeout(function(){t.contains(ti+i)&&e()},m)
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/scss/chatbot.css" />
   </head>
   <body class="top">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNW23ZTC"
@@ -901,5 +902,38 @@ x.onerror=e;ne.insertBefore(x,z);setTimeout(function(){t.contains(ti+i)&&e()},m)
     </div>
 
     <script src="assets/js/main.js"></script>
+
+<!-- ========== CHATBOT WIDGET ========== -->
+
+<div class="cb-overlay" id="cb-overlay" onclick="cbClose()"></div>
+
+<button class="cb-fab" id="cb-fab" onclick="openChat()">
+  <div class="cb-fab__badge" id="cb-badge">1</div>
+  <svg width="25" height="25" fill="none" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="white"/></svg>
+</button>
+
+<div class="cb-win cb-hidden" id="cb-win">
+  <div class="cb-hdr">
+    <div class="cb-hdr__av">🎓</div>
+    <div class="cb-hdr__info">
+      <div class="cb-hdr__name">Loohcs志塾 相談受付</div>
+      <div class="cb-hdr__status">● オンライン受付中</div>
+    </div>
+    <div class="cb-hdr__remaining" id="cb-remaining">あと9問</div>
+    <button class="cb-hdr__close" onclick="cbClose()">✕</button>
+  </div>
+  <div class="cb-prog"><div class="cb-prog__fill" id="cb-prog" style="width:0%"></div></div>
+  <div class="cb-msgs" id="cb-msgs"></div>
+  <div class="cb-inp" id="cb-inp" style="display:none">
+    <textarea class="cb-ta" id="cb-ta" rows="1" oninput="cbAutoR(this)" onkeydown="cbKey(event)"></textarea>
+    <button class="cb-send" onclick="cbSend()">
+      <svg width="15" height="15" fill="none" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="assets/js/chatbot.js"></script>
+<!-- ========== /CHATBOT WIDGET ========== -->
+
   </body>
 </html>
