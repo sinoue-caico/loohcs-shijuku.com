@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+<!-- Optimize Next -->
+<script>(function(o,p,ti,m,i,z,e,ne,x,t){
+if(o['_'+i])return;o['_'+i]={};e=p.currentScript;ne=e.parentNode;
+z=p.createElement('style');z.textContent='.'+ti+i+'{visibility:hidden!important}';
+x=p.createElement('script');x.src='https://www.googletagmanager.com/gtm.js?id=GTM-'+i+
+(location.search.includes('_optx_')?'&t='+new Date().getTime():'');ne.insertBefore(z,e);
+t=p.documentElement.classList;t.add(ti+i);e=function(){t.remove(ti+i);o['_'+i]=0};
+x.onerror=e;ne.insertBefore(x,z);setTimeout(function(){t.contains(ti+i)&&e()},m)
+})(window,document,'loading',1000,'M8B4HTB6')</script>
+<!-- End Optimize Next -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PNW23ZTC');</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>総合型選抜 Loohcs志塾（ルークス志塾）</title>
+    <meta
+      name="description"
+      content="「総合型選抜（AO入試）対策ならLoohcs志塾。慶應、早稲田、上智などの難関大学へ多数の合格者を輩出。一人ひとりの志を形にする対話型カリキュラムと、経験豊富な講師陣による志望理由書・面接対策で, あなたの可能性を最大化します。」"
+    />
+    <meta property="og:title" content="総合型選抜 Loohcs志塾（ルークス志塾）" />
+    <meta
+      property="og:description"
+      content="「総合型選抜（AO入試）対策ならLoohcs志塾。慶應、早稲田、上智などの難関大学へ多数の合格者を輩出。一人ひとりの志を形にする対話型カリキュラムと、経験豊富な講師陣による志望理由書・面接対策で, あなたの可能性を最大化します。」"
+    />
+    <meta
+      property="og:url"
+      content="https://loohcs-shijuku.com/lp-special/c001/"
+    />
+    <meta
+      property="og:site_name"
+      content="総合型選抜 Loohcs志塾（ルークス志塾）"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/scss/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  <style>
+    /* ===== CV Area ===== */
+    .cv-area {
+      background-color: #1b455f;
+      padding: 52px 20px;
+    }
+    .cv-area--alt {
+      background-color: #004661;
+    }
+    .cv-area__inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+    .cv-area__urgency {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: #c0392b;
+      color: #fff;
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 5px 20px;
+      border-radius: 3px;
+      letter-spacing: 0.06em;
+    }
+    .cv-area__main-text {
+      font-family: "Zen Old Mincho", serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .cv-area__main-text strong {
+      color: #ffffff;
+      font-weight: 900;
+      text-decoration: underline;
+      text-decoration-color: #009eaa;
+      text-underline-offset: 4px;
+    }
+    .cv-area__sub-text {
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      margin: 0;
+      letter-spacing: 0.06em;
+    }
+    .cv-area__btn {
+      display: inline-block;
+      box-sizing: border-box;
+      margin-top: 4px;
+      background-color: #009eaa;
+      color: #fff;
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 18px 60px;
+      border-radius: 3px;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-align: center;
+      transition: opacity 0.2s ease;
+    }
+    .cv-area__btn:hover {
+      opacity: 0.85;
+    }
+    @media screen and (max-width: 767px) {
+      .cv-area {
+        padding: 40px 20px;
+      }
+      .cv-area__main-text {
+        font-size: 22px;
+      }
+      .cv-area__btn {
+        font-size: 17px;
+        padding: 16px 20px;
+        width: 100%;
+        max-width: 320px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  </style>
+  </head>
+  <body class="top">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNW23ZTC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__logo">
+          <img src="assets/img/logo.png" alt="Loohcs志塾" />
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__item-link">合格実績</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">選ばれる理由</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">コース</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link"
+                >サポート<img
+                  class="header__item-icon"
+                  src="assets/img/header-arrow.svg"
+                  alt="下矢印"
+              /></a>
+            </li>
+            <li class="header__item header__item--btn">
+              <a href="#" class="header__item-link">申し込む</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="fv">
+        <div class="fv__top">
+          <div class="fv__top-inner">
+            <div class="fv__top-content">
+              <div class="fv__top-logo">
+                <img
+                  src="assets/img/logo.webp"
+                  alt="総合型選抜 Loohcs志塾（ルークス志塾）"
+                />
+              </div>
+
+              <h2 class="fv__top-title">
+                <img
+                  src="assets/img/fv-achievement.svg"
+                  alt="総合型選抜の合格率86.1%"
+                />
+              </h2>
+              <h3 class="fv__top-subtitle">
+                AO入試専門塾だから、<br />
+                あなたの「志」を<br class="br-small-pc" />最短合格へ
+              </h3>
+              <p class="fv__top-text fv__top-text--pc">
+                難関校合格実績15年の専門ノウハウ<br />
+                経験者講師による完全マンツーマン指導
+              </p>
+              <p class="fv__top-text fv__top-text--sp">
+                難関校合格実績15年の専門ノウハウ、<br />
+                経験者講師による合格までに<br />
+                最適な多数 of 受講が可能
+              </p>
+            </div>
+            <img
+              class="fv__top-image fv__top-image--pc"
+              src="assets/img/fv-person.png"
+              alt="まずは無料で相談!!"
+            />
+            <img
+              class="fv__top-image fv__top-image--sp"
+              src="assets/img/sp/fv-person.png"
+              alt="まずは無料で相談!!"
+            />
+          </div>
+        </div>
+
+        <div class="fv__bottom">
+          <h1 class="fv__bottom-title">
+            再チャレンジ<br class="br-sp" />キャンペーン実施中
+          </h1>
+          <p class="fv__bottom-banner" style="padding: 20px 10px; min-height: auto; display: flex; justify-content: center; align-items: center;">
+            <span style="font-size: clamp(20px, 4vw, 36px); font-weight: 900; letter-spacing: 0.05em; text-align: center; line-height: 1.35; width: 100%;">4月末日までの体験受講で<br class="br-sp" />入塾金が無料！</span>
+          </p>
+          <img
+            class="fv__bottom-campaign fv__bottom-campaign--pc"
+            src="assets/img/fv-campaign.png"
+            alt="再チャレンジキャンペーン 申込締切 5月10日(日) 23:59。適用条件 4月末までの体験受講"
+          />
+          <img
+            class="fv__bottom-campaign fv__bottom-campaign--sp"
+            src="assets/img/sp/fv-campaign.png"
+            alt="再チャレンジキャンペーン 申込締切 5月10日(日) 23:59。適用条件 4月末までの体験受講"
+          />
+        </div>
+      </section>
+
+      <section class="cv-area">
+        <div class="cv-area__inner">
+          <div class="cv-area__urgency">
+            <span>4月末日〆切！お急ぎください</span>
+          </div>
+          <p class="cv-area__main-text">
+            既卒生の方は、<br />体験授業を受けるだけで<br class="br-sp" /><strong>入塾金が無料に！</strong>
+          </p>
+          <p class="cv-area__sub-text">
+            お気軽なオンライン受講も可能です。
+          </p>
+          <a href="https://loohcs-shijuku.com/form/" class="cv-area__btn">
+            まずは無料相談
+          </a>
+        </div>
+      </section>
+
+      <section class="campaign">
+        <div class="campaign__inner">
+          <div class="campaign__content">
+            <h2 class="campaign__title">
+              再チャレンジ<br class="br-sp" />キャンペーン
+            </h2>
+            <p class="campaign__banner" style="margin-top: 15px;">対象者</p>
+            <ul class="campaign__list" style="margin-bottom: 15px;">
+              <li class="campaign__item">来年度（2026年4月から）既卒生になる高３生の方</li>
+              <li class="campaign__item">すでに既卒生として受験に挑戦されている方</li>
+            </ul>
+            <p class="campaign__banner">適用条件</p>
+            <ul class="campaign__list" style="margin-bottom: 15px;">
+              <li class="campaign__item">
+                4月末日までに体験受講(ビギナーコース)をお申し込み
+              </li>
+              <li class="campaign__item">
+                体験受講後, 5月10日(日)までに入塾手続き完了
+              </li>
+            </ul>
+            <p class="campaign__banner">特典</p>
+            <ul class="campaign__list">
+              <li class="campaign__item" style="font-weight: bold; color: #d32f2f; text-shadow: none;">
+                入塾金（33,000円税込）が無料
+              </li>
+            </ul>
+          </div>
+          <img
+            class="campaign__img"
+            src="assets/img/campaign-img1.jpg"
+            alt="再チャレンジキャンペーン実施中"
+          />
+        </div>
+      </section>
+
+      <section class="schedule">
+        <h2 class="schedule__title">申込スケジュール</h2>
+        <p class="schedule__text">
+          3つのステップで無料体験から<br
+            class="br-sp"
+          />キャンペーン適用まで進みます
+        </p>
+
+        <ul class="schedule__list">
+          <li class="schedule__item">
+            <p class="schedule__item-num">STEP1</p>
+            <p class="schedule__item-text">
+              今すぐ体験受講を<br
+                class="br-pc br-large-pc br-small-pc"
+              />申し込む<br />
+              （4月末日まで）
+            </p>
+          </li>
+
+          <li class="schedule__item">
+            <p class="schedule__item-num">STEP2</p>
+            <p class="schedule__item-text">
+              体験受講を受ける
+            </p>
+          </li>
+
+          <li class="schedule__item">
+            <p class="schedule__item-num">STEP3</p>
+            <p class="schedule__item-text">
+              入塾手続き<br />
+              5月10日(日)23:59までに完了で<br class="br-sp" />キャンペーン<br
+                class="br-pc br-large-pc br-small-pc"
+              />適用!
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="campaign" style="background: #fff; padding: 40px 0;">
+        <div class="campaign__inner" style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 1100px; margin: 0 auto; padding: 0 20px;">
+          <div class="campaign__content" style="width: 100%; text-align: center; margin: 0 auto;">
+            <h2 class="campaign__title" style="font-size: clamp(32px, 5vw, 48px); line-height: 1.3; margin-bottom: 1rem; color: #469ca8; font-weight: 700; width: 100%;">
+              更に、<br>「掛け持ち・乗り換え割キャンペーン」<br>も実施中！
+            </h2>
+            <p class="campaign__text" style="font-size: clamp(20px, 3vw, 28px); margin-bottom: 1.5rem; color: #469ca8; width: 100%; font-weight: 700;">申込締切：6月10日(水)</p>
+            
+            <div style="background: rgba(0, 158, 170, 0.05); padding: clamp(25px, 5vw, 45px) clamp(15px, 3vw, 20px); border-radius: 12px; margin-bottom: 2rem; border: 1.5px solid #009eaa; max-width: 800px; margin-left: auto; margin-right: auto;">
+              <h3 style="font-size: clamp(22px, 4vw, 36px); font-weight: 700; color: #469ca8; line-height: 1.4; margin: 0;">
+                入塾月の授業料1ヶ月分（最大4コマ分）が無料！
+              </h3>
+            </div>
+
+            <div style="text-align: left; max-width: 800px; margin: 0 auto; border-top: 1px solid #eee; padding-top: 1.5rem;">
+              <p style="font-weight: 700; color: #222; margin-bottom: 0.5rem; font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 16px;">【ご注意】</p>
+              <ul style="list-style: none; padding: 0; margin: 0; font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 15px; color: #444; line-height: 1.8;">
+                <li>＊掛け持ちや乗り換えがわかる書類が必要です。</li>
+                <li>＊授業料無料の対象月は原則入塾月</li>
+                <li>＊5月末日までの体験受講お申し込み、6月10日(水)までの手続き完了が条件です。</li>
+                <li>＊再チャレンジキャンペーン対象の方は、5月10日(日)までの手続き完了に限り、本特典に加え入塾金も無料となります。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv-area cv-area--alt">
+        <div class="cv-area__inner">
+          <div class="cv-area__urgency">
+            <span>4月末日〆切！お急ぎください</span>
+          </div>
+          <p class="cv-area__main-text">
+            あなたも合格の一歩を。<br class="br-sp" /><strong>まずは無料相談！</strong>
+          </p>
+          <p class="cv-area__sub-text">
+            お気軽なオンライン受講も可能です。
+          </p>
+          <a href="https://loohcs-shijuku.com/form/" class="cv-area__btn">
+            まずは無料相談
+          </a>
+        </div>
+      </section>
+
+      <section class="worry">
+        <h2 class="worry__title">
+          こんなお悩みは<br class="br-sp" />ありませんか？
+        </h2>
+
+        <ul class="worry__list">
+          <li class="worry__item">
+            総合型選抜で<br
+              class="br-large-pc br-small-pc"
+            />何から始めればいいかわからない
+          </li>
+          <li class="worry__item">学校の成績だけでは不安</li>
+          <li class="worry__item">自分の志望理由書に自信が持てない</li>
+          <li class="worry__item">一般入試との併願で迷っている</li>
+          <li class="worry__item">面接・小論文の対策方法がわからない</li>
+          <li class="worry__item">
+            自分の「強み」や「志」が<br class="br-small-pc" />見つからない
+          </li>
+        </ul>
+
+        <p class="worry__text">
+          総合型選抜は情報が少なく、一人で対策するのは<br
+            class="br-pc"
+          />本当に大変です。でも, ご安心ください。
+        </p>
+      </section>
+
+      <section class="reason">
+        <h2 class="reason__title">選ばれる<br class="br-sp" />3つの理由</h2>
+
+        <p class="reason__text">
+          ルークス志塾が多くの生徒に選ばれている理由をご紹介します。
+        </p>
+
+        <ul class="reason__list">
+          <li class="reason__item">
+            <p class="reason__item-num">01</p>
+            <h3 class="reason__item-title">
+              圧倒的な合格実績と<br />15年の専門ノウハウ
+            </h3>
+            <img
+              class="reason__item-img"
+              src="assets/img/reason-img1.jpg"
+              alt="圧倒的な合格実績と15年の専門ノウハウ"
+            />
+          </li>
+
+          <li class="reason__item">
+            <p class="reason__item-num">02</p>
+            <h3 class="reason__item-title">
+              合格までに<br />
+              最適な多数 of 受講が可能
+            </h3>
+            <img
+              class="reason__item-img"
+              src="assets/img/reason-img2.jpg"
+              alt="合格までに最適な多数 of 受講が可能"
+            />
+          </li>
+
+          <li class="reason__item">
+            <p class="reason__item-num">03</p>
+            <h3 class="reason__item-title">
+              柔軟なサポート<br />
+              体制で安心
+            </h3>
+            <img
+              class="reason__item-img"
+              src="assets/img/reason-img3.jpg"
+              alt="柔軟なサポート体制で安心"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="point">
+        <div class="point__top">
+          <div class="point__top-inner">
+            <div class="point__top-content">
+              <h2 class="point__top-title">圧倒的な合格実績</h2>
+              <p class="point__top-text">
+                15年間で蓄積された膨大な合格者データと大学学部別の<br
+                  class="br-pc"
+                />対策ノウハウがあります。
+              </p>
+
+              <ul class="point__top-list">
+                <li class="point__top-item">
+                  <p class="point__top-item-title">進学率</p>
+                  <p class="point__top-item-text">
+                    難関校進学率は86.1%で, 一般入試では届かない難関校への逆転合格も可能です。
+                  </p>
+                </li>
+
+                <li class="point__top-item">
+                  <p class="point__top-item-title">通過率</p>
+                  <p class="point__top-item-text">
+                    書類審査通過率は50%以上で, 最終合格率は80%です。
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <img
+              class="point__top-image"
+              src="assets/img/point-img1.jpg"
+              alt="ルークス志塾が選ばれる4つのポイント"
+            />
+          </div>
+        </div>
+
+        <div class="point__bottom">
+          <div class="point__bottom-inner">
+            <img
+              class="point__bottom-img"
+              src="assets/img/point-img2.jpg"
+              alt="圧倒的な合格実績"
+            />
+
+            <div class="point__bottom-content">
+              <h2 class="point__bottom-title">
+                総合型選抜経験者<br class="br-sp" />による<br
+                  class="br-pc br-large-pc br-small-pc"
+                />合格までに<br class="br-sp" />最適な多数 of<br
+                  class="br-pc br-large-pc br-small-pc"
+                />受講が可能
+              </h2>
+              <p class="point__bottom-text">
+                あなた専属の「先輩」が合格まで伴走します。<br
+                  class="br-pc br-large-pc br-small-pc"
+                />講師の大半が総合型選抜の合格経験者で, 完全1対1の対話型授業を行います。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="support">
+        <h2 class="support__title">
+          柔軟な<br class="br-sp" />サポート体制で安心
+        </h2>
+        <p class="support__text">
+          状況に応じて指導内容も授業料も調整可能です。<br
+            class="br-pc"
+          />通塾とオンライン授業の選択ができ, 授業日程は自由に調整できます。
+        </p>
+
+        <div class="support__btns">
+          <button class="support__btn">通塾・オンライン</button>
+          <button class="support__btn">日程調整</button>
+          <button class="support__btn">両立サポート</button>
+        </div>
+
+        <div class="support__item">
+          <img
+            class="support__item-img"
+            src="assets/img/support-img1.jpg"
+            alt="柔軟なサポート体制で安心"
+          />
+          <div class="support__item-content">
+            <h3 class="support__item-title">通塾とオンライン授業</h3>
+            <p class="support__item-text">
+              あなたのペースに<br />
+              合わせて選択できます
+            </p>
+            <p class="support__item-description">
+              自分の都合に合わせて通塾できるので, 部活や学校行事との両立が可能です。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="people">
+        <h2 class="people__title">
+          こんな人に<br class="br-sp" />ピッタリです
+        </h2>
+
+        <p class="people__text" style="max-width: 680px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; box-sizing: border-box;">
+          どのタイプも, まずは【無料体験】から!<br
+            class="br-small-pc br-sp"
+          />今なら対象者は「入塾金無料」＆「授業料最大4コマ無料」<br />
+          申込締切：再チャレンジキャンペーン5/10(日)｜掛け持ち・乗り換え割キャンペーン6/10(水)
+        </p>
+
+        <ul class="people__list">
+          <li class="people__item">
+            <p class="people__item-num">01</p>
+            <h3 class="people__item-title">
+              志はあるが<br />
+              戦略がない人
+            </h3>
+            <img
+              class="people__item-img"
+              src="assets/img/people-img1.jpg"
+              alt="志はあるが戦略がない人"
+            />
+          </li>
+
+          <li class="people__item">
+            <p class="people__item-num">02</p>
+            <h3 class="people__item-title">
+              夢はあるが<br />
+              道筋が見えない人
+            </h3>
+            <img
+              class="people__item-img"
+              src="assets/img/people-img2.jpg"
+              alt="夢はあるが道筋が見えない人"
+            />
+          </li>
+
+          <li class="people__item">
+            <p class="people__item-num">03</p>
+            <h3 class="people__item-title">
+              自分の強みが<br />
+              わからない人
+            </h3>
+            <img
+              class="people__item-img"
+              src="assets/img/people-img3.jpg"
+              alt="自分の強みがわからない人"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="service">
+        <h2 class="service__title">
+          ルークス志塾の<br class="br-sp" />サービス
+        </h2>
+        <p class="service__text">
+          総合型選抜対策に必要なすべてのサービスをご用意しています
+        </p>
+
+        <div class="service__inner">
+          <ul class="service__list">
+            <li class="service__item service__item--1">
+              <img
+                class="service__item-img"
+                src="assets/img/service-img1.jpg"
+                alt="サービス内容"
+              />
+              <div class="service__item-content">
+                <p class="service__item-course">対策コース</p>
+                <p class="service__item-title">総合型選抜対策コース</p>
+                <p class="service__item-text">
+                  志望理由書から面接対策まで、合格に必要なすべてをサポートします。
+                </p>
+                <a href="#" class="service__item-link">詳しくはこちら</a>
+              </div>
+            </li>
+
+            <li class="service__item service__item--4">
+              <div class="service__item-content">
+                <p class="service__item-title">
+                  志望理由書<br />
+                  作成サポート
+                </p>
+                <p class="service__item-text">
+                  あなたの想いを効果的に伝える<br />
+                  志望理由書を完成させます。
+                </p>
+                <a href="#" class="service__item-link">詳しくはこちら</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="service__list">
+            <li class="service__item service__item--2">
+              <div class="service__item-content">
+                <p class="service__item-title">面接・プレゼン対策</p>
+                <p class="service__item-text">
+                  実践的な練習を通じて, <br />
+                  本番での自信を身につけます。
+                </p>
+                <a href="#" class="service__item-link">詳しくはこちら</a>
+              </div>
+            </li>
+
+            <li class="service__item service__item--5">
+              <img
+                class="service__item-img"
+                src="assets/img/service-img3.jpg"
+                alt="サービス内容"
+              />
+              <div class="service__item-content">
+                <p class="service__item-course">試験対策</p>
+                <p class="service__item-title">小論文対策</p>
+                <p class="service__item-text">
+                  採点者の視点から、説得力のある小論文を作成する力を養います。
+                </p>
+                <a href="#" class="service__item-link">詳しくはこちら</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="service__list">
+            <li class="service__item service__item--3">
+              <img
+                class="service__item-img"
+                src="assets/img/service-img2.jpg"
+                alt="サービス内容"
+              />
+              <div class="service__item-content">
+                <p class="service__item-course">活動支援</p>
+                <p class="service__item-title">課外活動サポート</p>
+                <p class="service__item-text">
+                  学校行事や部活動との両立を応援し、あなたの活動を合格に活かします。
+                </p>
+                <a href="#" class="service__item-link">詳しくはこちら</a>
+              </div>
+            </li>
+
+            <li class="service__item service__item--6">
+              <div class="service__item-content">
+                <p class="service__item-title">学年別対応</p>
+                <p class="service__item-text">
+                  高1・高2は早期対策で志を育て、<br
+                    class="br-sp"
+                  />高3は直前期でも間に合う<br
+                    class="br-sp"
+                  />短期集中対応です。
+                </p>
+                <a href="#" class="service__item-link">詳しくはこちら</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="story">
+        <h2 class="story__title">
+          先輩たちの<br class="br-sp" />合格ストーリー
+        </h2>
+        <p class="story__text">
+          ルークス志塾で合格を勝ち取った<br
+            class="br-sp"
+          />先輩たちの声をお聞きください
+        </p>
+
+        <ul class="story__list">
+          <li class="story__item">
+            <div class="story__item-header">
+              <p class="story__item-name">佐野陽菜</p>
+              <p class="story__item-school">慶應義塾大学 総合政策学部 合格</p>
+              <p class="story__item-star">★★★★★</p>
+            </div>
+            <div class="story__item-content">
+              <p class="story__item-text">
+                研究テーマに悩み葛藤する中で、シェルパの方との対話を通じ思考を深め続けられた経験は, 大学合格だけでなく高校生活の学びにおいても大きな転機となりました
+              </p>
+            </div>
+          </li>
+
+          <li class="story__item">
+            <div class="story__item-header">
+              <p class="story__item-name">鈴木琉生</p>
+              <p class="story__item-school">早稲田大学 社会科学部 合格</p>
+              <p class="story__item-star">★★★★★</p>
+            </div>
+            <div class="story__item-content">
+              <p class="story__item-text">
+                シェルパと志望校を真剣に考え, リスクある選択にも挑戦した経験が自分を大きく成長させました。特に早稲田への挑戦と合格は, 自信につながる忘れられない経験です
+              </p>
+            </div>
+          </li>
+
+          <li class="story__item">
+            <div class="story__item-header">
+              <p class="story__item-name">村上太栞</p>
+              <p class="story__item-school">慶應義塾大学 総合政策学部 合格</p>
+              <p class="story__item-star">★★★★★</p>
+            </div>
+            <div class="story__item-content">
+              <p class="story__item-text">
+                私は地方在住のため、オンライン指導が充実しているLoohcsを選びました。特別講習プランで費用面の負担も抑えられ, 実績豊富なシェルパの指導は受験成功の大きな支えとなりました
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="cv-area">
+        <div class="cv-area__inner">
+          <div class="cv-area__urgency">
+            <span>4月末日〆切！お急ぎください</span>
+          </div>
+          <p class="cv-area__main-text">
+            あなたも合格の一歩を。<br class="br-sp" /><strong>まずは無料相談！</strong>
+          </p>
+          <p class="cv-area__sub-text">
+            お気軽なオンライン受講も可能です。
+          </p>
+          <a href="https://loohcs-shijuku.com/form/" class="cv-area__btn">
+            まずは無料相談
+          </a>
+        </div>
+      </section>
+
+      <section class="faq">
+        <h2 class="faq__subtitle">FAQ</h2>
+        <p class="faq__title">よくあるご質問</p>
+
+        <ul class="faq__list">
+          <li class="faq__item">
+            <h3 class="faq__item-title">
+              <span>Q.</span>
+              <span>総合型選抜入試とはどんなもの</span>
+            </h3>
+            <div class="faq__item-content">
+              <p class="faq__item-answer">
+                <span>A.</span>
+                <span>
+                  総合型選抜入試対策の根幹は、「マッチング入試」だと理解することです。<br />
+                  総合型選抜入試とは、「ペーパーテストだけに依らない選抜制度」を総称した入試形態です。<br />
+                  これまでの大学入試は, 学力試験を元に合否が決められていましたが, 総合型選抜入試は「大学と受験生とのマッチング」を重視した入試と言われています。<br />
+                  受験生の「大学への志望理由」と、大学側の「アドミッションポリシー」がどの程度マッチしているかを、「志望理由書」「面接」「小論文」等を用いて審査します。<br />
+                  言い換えればお見合い入試とも言えるでしょう。
+                </span>
+              </p>
+
+              <a
+                href="https://loohcs-shijuku.com/know-how/p37102/"
+                target="_blank"
+                class="faq__item-link"
+              >
+                詳しくはこちら
+              </a>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <h3 class="faq__item-title">
+              <span>Q.</span>
+              <span>いつから対策を始めるべき?</span>
+            </h3>
+            <div class="faq__item-content">
+              <p class="faq__item-answer">
+                <span>A.</span>
+                <span>
+                  いつから対策を始めるべきか<br />
+                  結論から言えば「早いに越したことはない」と言えます。<br />
+                  総合型選抜入試は受験生の総合的評価であるため, 「学校の成績」「部活動や特技」「資格」「活動実績」「大学への愛」など, 多様な面から評価されます。<br />
+                  これらを一夜にして身につけることは容易ではないからこそ, 対策は早いに越したことはないと言えます。
+                </span>
+              </p>
+
+              <a
+                href="https://loohcs-shijuku.com/know-how/p71026/"
+                target="_blank"
+                class="faq__item-link"
+              >
+                詳しくはこちら
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="school">
+        <div class="school__inner">
+          <div class="school__content">
+            <h2 class="school__title">
+              全国の校舎から<br />
+              お選びいただけます
+            </h2>
+            <p class="school__text">
+              関東(東京・神奈川・千葉)、関西, 東海, 九州・沖縄など<br
+                class="br-pc br-large-pc br-small-pc"
+              />全国に校舎を展開. オンライン対応も可能です。
+            </p>
+          </div>
+          <img
+            class="school__img"
+            src="assets/img/school-img.jpg"
+            alt="全国の校舎からお選びいただけます"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer__logo">
+        <img src="assets/img/logo.png" alt="Loohcs志塾" />
+      </h2>
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" target="_blank" class="footer__link"
+              >プライバシーポリシー</a
+            >
+          </li>
+          <li class="footer__item">
+            <a href="#" target="_blank" class="footer__link">特定商取引法</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" target="_blank" class="footer__link">会社概要</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" target="_blank" class="footer__link"
+              >キャンペーン規約</a
+            >
+          </li>
+          <li class="footer__item">
+            <a href="#" target="_blank" class="footer__link">サイトマップ</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <div class="fixed-cta">
+      <div class="fixed-cta__inner">
+        <img
+          alt="再チャレンジキャンペーン実施中"
+          class="fixed-cta__fukidashi"
+          src="assets/img/fixed-cta-fukidashi.svg"
+        />
+        <a class="fixed-cta__link" href="https://loohcs-shijuku.com/form/">
+          無料相談でお得な特典ゲット！<br />
+          <span>お申し込みはコチラ</span>
+        </a>
+      </div>
+
+      <a href="#" class="fixed-cta__top-btn">
+        <img src="assets/img/fixed-cta-arrow.svg" alt="上部に戻る" />
+      </a>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
